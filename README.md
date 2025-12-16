@@ -35,3 +35,28 @@ Projeto de estudo e demonstração de arquitetura assíncrona utilizando **Sprin
 ```bash
 docker-compose up -d
 ./gradlew bootRun
+
+📮 Teste via Postman
+POST http://localhost:8080/orders
+
+{
+  "orderId": "order-500",
+  "product": "Notebook",
+  "quantity": 2
+}
+
+📚 Objetivo
+
+Projeto criado para estudo aprofundado de Kafka e preparação para entrevistas em nível Pleno/Sênior.
+
+
+---
+
+# 🧾 .gitignore (não esquecer)
+
+```gitignore
+/build
+/.gradle
+/.idea
+*.iml
+.env
