@@ -47,7 +47,7 @@ POST http://localhost:8080/orders
 
 📚 Objetivo
 
-Projeto criado para estudo aprofundado de Kafka e preparação para entrevistas em nível Pleno/Sênior.
+Projeto criado para estudo aprofundado de Kafka.
 
 
 ---
